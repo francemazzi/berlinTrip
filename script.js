@@ -33,7 +33,7 @@ function StopSound() {
 
 //FUNZIONE DATA
 //data arrivo
-const countDownDate = new Date("May 7, 2022 15:15:00").getTime();
+const countDownDate = new Date("Jul 3, 2022 08:15:00").getTime();
 
 // Aggiorno del conto alla rovescia ogni 1 sec
 const x = setInterval(function () {
