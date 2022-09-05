@@ -1,11 +1,11 @@
 "use strict";
 
 function sideScroll(direction, id) {
-  var element = document.getElementById(id);
-  var scrollAmount = 0;
-  var scrollMax = element.clientWidth;
-  var scrollMin = 0;
-  var amount = 10;
+  const element = document.getElementById(id);
+  const scrollAmount = 0;
+  const scrollMax = element.clientWidth;
+  const scrollMin = 0;
+  const amount = 10;
   if (direction == "right") {
     element.scrollTo({
       top: 0,
